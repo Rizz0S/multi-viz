@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" version="1.1" viewBox="0 0 500.00001 500.00001" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0 -552.36)">
+  <rect y="552.36" width="500" height="500" fill="#fafcf6"/>
+ </g>
+ <path d="m274.33 137.56-88.127 72.819h-95.242v87.242h87.242l8 6.7129 88.127 73.949z" fill="#68d5c8"/>
+ <path d="m118.68 297.62h59.525l12.016 10.083m12.016 10.083 16.284 13.664m12.981 10.892 6.7826 5.692 12.016 10.083 12.016 10.083 12.016 10.083v-256.57l-12.016 10.083-12.016 10.083-6.008 5.0414-5.4891 4.606m-8.5655 7.1873-5.6499 4.7411m-10.335 8.6727-6.008 5.0414-6.008 5.0414-12.016 10.083-12.016 10.083h-95.24v95.24h23.81" fill="none" stroke="#2f424d" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.2895"/>
+ <circle cx="315.56" cy="251.12" r="8.2895" fill="#2f424d"/>
+ <path d="m316.68 196.39c29.61 0 53.614 24.004 53.614 53.614s-24.004 53.614-53.614 53.614" fill="none" stroke="#2f424d" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.2895"/>
+ <path d="m316.68 149.64c55.425 0 100.36 44.931 100.36 100.36 0 55.425-44.931 100.36-100.36 100.36" fill="none" stroke="#2f424d" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.2895"/>
+</svg>
