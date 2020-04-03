@@ -1,6 +1,6 @@
 ## Hello!
 
-# Welcome to the ~Multi-Viz~!
+# Welcome to the Multi-Viz!
 
 The multi-viz is a many-handed audio visual machine! I originaly wrote it as a feature for an app in vanilla JS (see [repo](https://github.com/angelopoole/Bloom-FrontEnd) and [blog post](https://dev.to/rizz0s/creating-an-audio-visualizer-that-can-handle-multiple-audio-sources-dynamically-all-in-vanilla-js-5hfl)), but I converted it to a standalone app to help myself learn the React framework. 
 
