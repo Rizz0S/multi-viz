@@ -1,22 +1,20 @@
 import React from 'react';
 import Sound from '../components/Sound';
 
-export default class SoundContainer extends React.Component {
+export default function SoundContainer (props) {
 
     soundComponents = () => {
-       return this.props.sounds.map((sound) => 
+       return props.sounds.map((sound) => 
            <Sound sound={sound}/>
        )
     }
 
-    render() {
-        return(
-            <div className="sound-container">
-                {this.soundComponents()}
-            </div>
-        )
-    }
+    return(
+        <div className="sound-container">
+            {soundComponents()}
+        </div>
+    )
 
 
-} // end of SoundContainer class
+}
 

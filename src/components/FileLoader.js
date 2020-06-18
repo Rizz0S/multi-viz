@@ -1,20 +1,16 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
-class FileLoader extends React.Component {
-
-    constructor(props) {
-        super(props);
-        this.fileInput = React.createRef();
-    }
-
-    handleSubmit = (e) => {
+export default function FileLoader (props) {
+    const fileInput = useRef();
+    
+    const handleSubmit = (e) => {
         e.preventDefault();
-        const uploadedFile = this.fileInput.current.files[0];
-        const soundElement = this.createSound(uploadedFile);
-        this.props.handleFileUpload(soundElement)
+        const uploadedFile = fileInput.current.files[0];
+        const soundElement = createSound(uploadedFile);
+        props.handleFileUpload(soundElement)
     }
     
-    createSound (uploadedFile) {
+    const createSound = (uploadedFile) => {
         const sound = document.createElement('audio');
         
         sound.src = URL.createObjectURL(uploadedFile);
@@ -25,23 +21,21 @@ class FileLoader extends React.Component {
         return sound;
     }
 
-    render() {
-        return(
-            <div>
-                <input
-                id="file-load"
-                type="file" 
-                ref={this.fileInput}
-                onChange={this.handleSubmit}
-                />
-                <label 
-                htmlFor="file-load" 
-                className="upload-file-label"
-                >Load file...
-                </label>
-            </div>
-        )
-    }
-} // end of FileLoader class
+    return(
+        <div>
+            <input
+            id="file-load"
+            type="file" 
+            ref={fileInput}
+            onChange={handleSubmit}
+            />
+            <label 
+            htmlFor="file-load" 
+            className="upload-file-label"
+            >Load file...
+            </label>
+        </div>
+    )
+}
 
 export default FileLoader;

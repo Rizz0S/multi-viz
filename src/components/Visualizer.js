@@ -4,6 +4,7 @@ class Visualizer extends React.Component {
     static defaultProps = {
         audioContexts: []
     }
+    
     constructor(props) {
         super(props);
         this.canvas = React.createRef();
